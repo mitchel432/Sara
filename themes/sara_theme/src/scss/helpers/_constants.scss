@@ -1,0 +1,67 @@
+$margin-medium: 20px;
+$margin-small: 10px;
+
+@font-face {
+    src:url(../../src/fonts/Praline-Regular.otf) format("opentype");;
+    font-family: Praline;
+}
+
+@font-face {
+    src:url(../../src/fonts/PralineSans-Regular.otf) format("opentype");;
+    font-family: PralineSans;
+}
+
+@font-face {
+    font-family: "abigail";
+    src: url('../../src/fonts/abigail-v4.woff') format('woff');
+    color: #084943;
+}
+
+@font-face {
+    font-family: "acumin";
+    src: url('../../src/fonts/Acumin-BdPro.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "acumin";
+    src: url('../../src/fonts/Acumin-RPro.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../../src/fonts/montserrat/Montserrat-Regular.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../../src/fonts/montserrat/Montserrat-Italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../../src/fonts/montserrat/Montserrat-Bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../../src/fonts/montserrat/Montserrat-SemiBold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../../src/fonts/montserrat/Montserrat-Light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../../src/fonts/montserrat/Montserrat-Thin.otf');
+    font-weight: 100;
+}

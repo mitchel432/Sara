@@ -1,0 +1,38 @@
+.node--type-base-page.node--view-mode-work {
+    .node__content {
+        display: flex;
+    }
+
+    a {
+        @extend %primary-font-large;
+        &:after {
+            content: none;
+        }
+
+        .base-page__work__title {
+            position: absolute;
+            margin: $margin-medium;
+            padding: $margin-medium;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            color: transparent;
+            opacity: 0%;
+            background: #3e3e3e;
+            transition: opacity .5s, color .5s;
+            text-align: center;
+        }
+
+        &:hover .base-page__work__title {
+            color: white;
+            opacity: 90%;
+        }
+    }
+
+    
+}

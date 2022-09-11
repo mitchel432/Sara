@@ -1,0 +1,26 @@
+body {
+    @extend %secondary-font-medium;
+    margin: $margin-medium;
+    color: black;
+
+    .layout-container a {
+        color: black;
+        text-decoration: none;
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            transition: width 1s;
+            background: black;
+        }
+
+        &:hover:after {
+            width: 100%;
+        }
+    }
+}

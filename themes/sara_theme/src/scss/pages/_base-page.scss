@@ -1,0 +1,70 @@
+.node--type-base-page {
+    position: relative;
+
+    h2 {
+        padding: $margin-medium 0;
+        @extend %primary-font-extra-large;
+        font-weight: normal;
+    }
+
+    .base-page__image {
+        margin: 0 $margin-medium $margin-medium 0;
+        float: left;
+    }
+
+    .base-page__body {
+        width: 70%;
+    }
+
+    .base-page__reach-out {
+        @extend %primary-font-medium;
+        padding: $margin-medium 0;
+        display: flex;
+
+        svg {
+            width: 30px;
+            padding-right: 5px;
+        }
+    }
+
+    // Remove clearfix for floated items.
+    .clearfix:after {
+        display: none;
+    }
+
+    .base-page__slideshow {
+        border-top: 1px solid black;
+        clear: left;
+        padding: $margin-medium 0;
+        margin: $margin-medium 0;
+
+        .slick-list {
+            margin: 0 $margin-medium;
+        }
+
+        .slick-slide {
+            padding: 0 5px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .slick-prev {
+            left: 0;
+        }
+
+        .slick-next {
+            right: 0;
+        }
+
+        .slick-prev:before, .slick-next:before {
+            color: black;
+        }
+
+        a:after {
+            display: none;
+        }
+    }
+}

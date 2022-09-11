@@ -1,6 +1,6 @@
 {
-    "name": "mitchel/wedding_website",
-    "description": "Wedding WEbsite",
+    "name": "mitchel/sara",
+    "description": "Portfolio Website",
     "type": "drupal-profile",
     "authors": [
       {
@@ -21,7 +21,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "composer/installers": "^1.9",
+        "composer/installers": "^2",
         "drupal/address": "^1.9",
         "drupal/admin_toolbar": "^3.0",
         "drupal/adminimal_theme": "^1.6",
@@ -44,13 +44,13 @@
         "drupal/pathauto": "^1.8",
         "drupal/responsive_menu": "4.4",
         "drupal/responsive_menus": "^1.0@alpha",
-        "drupal/slick": "2.4",
+        "drupal/slick": "^2.6",
         "drupal/superfish": "^1.4",
         "drupal/token": "^1.9",
         "drupal/twig_tweak": "^3.1",
         "drupal/webform": "^6.1",
         "drush/drush": "^10",
-
+        "drupal/colorbox": "^1.10",
         "npm-asset/jquery-ui-touch-punch": "^0.2.3",
         "npm-asset/slick-carousel": "^1.8",
         "oomphinc/composer-installers-extender": "^2.0"
@@ -61,16 +61,21 @@
       "installer-types": [
         "drupal-library", "npm-asset", "bower-asset"
       ],
+      "drupal-scaffold": {
+        "locations": {
+            "web-root": "web/"
+        }
+      },
       "installer-paths": {
-        "web/core/assets/vendor/ckeditor/plugins/link": ["municodepdx/ckeditor-link"],
-        "web/libraries/{$name}/": [
-          "type:drupal-library",
-          "enyo/dropzone",
-          "vendor:npm-asset",
-          "vendor:bower-asset",
-          "type:npm-asset",
-          "type:bower-asset"
-        ]
+        "web/core": ["type:drupal-core"],
+        "web/libraries/{$name}": ["type:drupal-library"],
+        "web/modules/contrib/{$name}": ["type:drupal-module"],
+        "web/profiles/{$name}": ["type:drupal-profile"],
+        "web/themes/contrib/{$name}": ["type:drupal-theme"],
+        "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
+        "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+        "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
+        "special/package/dir/": ["my/package"]
       }
     }
   }

@@ -1,0 +1,22 @@
+#block-tabs {
+    .reset-appearance {
+        display: none;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+
+        li {
+            margin: $margin-medium 0;
+            padding: 0 $margin-medium;
+            border-right: 1px solid black;
+
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+
+}

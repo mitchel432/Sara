@@ -1,0 +1,9 @@
+<?php
+
+use \Drupal\views\ViewExecutable;
+
+function sara_theme_views_pre_render(ViewExecutable $view) {
+    if ($view->id() == 'corporation') {
+        $view->element['#attached']['library'][] = 'sara_theme/corporation';
+    }
+}

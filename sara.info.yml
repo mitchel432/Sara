@@ -1,0 +1,86 @@
+name: Sara
+type: profile
+description: 'Saras Website Portfolio'
+core_version_requirement: '^8.8 || ^9'
+distribution:
+  name: Sara Profile
+dependencies:
+  - admin_toolbar
+  - admin_toolbar_tools
+  - automated_cron
+  - better_exposed_filters
+  - big_pipe
+  - blazy
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - comment
+  - config
+  - contact
+  - contextual
+  - ctools
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - entity_reference_revisions
+  - field
+  - field_group
+  - field_layout
+  - field_ui
+  - file
+  - filter
+  - geolocation
+  - geolocation_google_maps
+  - geolocation_google_static_maps
+  - gutenberg
+  - help
+  - history
+  - image
+  - insert
+  - jquery_ui
+  - jquery_ui_datepicker
+  - jquery_ui_slider
+  - jquery_ui_touch_punch
+  - layout_builder
+  - layout_discovery
+  - link
+  - media
+  - media_library
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - rdf
+  - responsive_image
+  - search
+  - shortcut
+  - slick
+  - slick_ui
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - tour
+  - twig_tweak
+  - update
+  - user
+  - views_ui
+  - webform
+  - webform_node
+  - webform_submission_export_import
+  - webform_submission_log
+  - webform_ui
+  - pathauto
+  - views
+  - paragraphs
+themes:
+  - bartik
+  - seven
+

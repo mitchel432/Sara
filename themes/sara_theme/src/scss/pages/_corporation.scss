@@ -1,0 +1,58 @@
+.view-corporation {
+    @extend %sidebar-small;
+    a:after {
+        display: none;
+    }
+    .view-display-id-attachment_1 .views-row {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: auto;
+        z-index: 1;
+        background: white;
+        margin: 0 50px 50px 50px;
+        box-shadow: 0px 3px 10px 0px black;
+        max-width: 1300px;
+        width: auto;
+        margin: 0 auto;
+
+        .close-button {
+            position: absolute;
+            top: $margin-small;
+            right: $margin-small;
+            font-size: 30px;
+        }
+
+        .views-field-field-secondary-image {
+            .item-list > ul {
+                display: flex;
+                margin: 0;
+                list-style: none;
+                padding: 30px;
+                justify-content: center;
+            }
+        }
+    }
+    .blazy--view--corporation {
+        .corp__button {
+            border-radius: 28px;
+            box-shadow: 0px 0px 6px 1px black;
+            margin: 10px;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+// Just for admin users
+.toolbar-tray-open .view-corporation {
+    .view-display-id-attachment_1 .views-row {
+        top: 78px;
+    }
+}

@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - media
-id: media.carousel_
-label: 'Carousel '
-targetEntityType: media
-cache: true

@@ -1,0 +1,295 @@
+@font-face {
+  src: url(../../src/fonts/Praline-Regular.otf) format("opentype");
+  font-family: Praline; }
+
+@font-face {
+  src: url(../../src/fonts/PralineSans-Regular.otf) format("opentype");
+  font-family: PralineSans; }
+
+@font-face {
+  font-family: "abigail";
+  src: url("../../src/fonts/abigail-v4.woff") format("woff");
+  color: #084943; }
+
+@font-face {
+  font-family: "acumin";
+  src: url("../../src/fonts/Acumin-BdPro.otf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "acumin";
+  src: url("../../src/fonts/Acumin-RPro.otf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Regular.otf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Italic.otf");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Bold.otf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-SemiBold.otf");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Light.otf");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Thin.otf");
+  font-weight: 100; }
+
+.node--type-base-page h2 {
+  font-size: 40px;
+  font-family: abigail, sans-serif;
+  letter-spacing: 0px;
+  text-shadow: 0 0 0px black; }
+  @media (min-width: 600px) {
+    .node--type-base-page h2 {
+      font-size: 40px; } }
+  @media (min-width: 800px) {
+    .node--type-base-page h2 {
+      font-size: 40px; } }
+  @media (min-width: 1200px) {
+    .node--type-base-page h2 {
+      font-size: 40px; } }
+
+.node--type-base-page.node--view-mode-work a {
+  font-size: 30px;
+  font-family: abigail, sans-serif;
+  letter-spacing: 0px;
+  text-shadow: 0 0 0px black; }
+  @media (min-width: 600px) {
+    .node--type-base-page.node--view-mode-work a {
+      font-size: 30px; } }
+  @media (min-width: 800px) {
+    .node--type-base-page.node--view-mode-work a {
+      font-size: 30px; } }
+  @media (min-width: 1200px) {
+    .node--type-base-page.node--view-mode-work a {
+      font-size: 30px; } }
+
+.region-header #block-logotext .logotext--wrapper .logotext--1, .node--type-base-page .base-page__reach-out {
+  font-size: 25px;
+  font-family: abigail, sans-serif;
+  letter-spacing: 0px;
+  text-shadow: 0 0 0px black; }
+  @media (min-width: 600px) {
+    .region-header #block-logotext .logotext--wrapper .logotext--1, .node--type-base-page .base-page__reach-out {
+      font-size: 25px; } }
+  @media (min-width: 800px) {
+    .region-header #block-logotext .logotext--wrapper .logotext--1, .node--type-base-page .base-page__reach-out {
+      font-size: 25px; } }
+  @media (min-width: 1200px) {
+    .region-header #block-logotext .logotext--wrapper .logotext--1, .node--type-base-page .base-page__reach-out {
+      font-size: 25px; } }
+
+body {
+  font-size: 15px;
+  font-family: montserrat; }
+  @media (min-width: 800px) {
+    body {
+      font-size: 18px; } }
+
+.view-corporation {
+  margin: 0 5%; }
+  @media (min-width: 800px) {
+    .view-corporation {
+      margin: 0 5%; } }
+
+body {
+  margin: 20px;
+  color: black; }
+  body .layout-container a {
+    color: black;
+    text-decoration: none;
+    position: relative; }
+    body .layout-container a:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      transition: width 1s;
+      background: black; }
+    body .layout-container a:hover:after {
+      width: 100%; }
+
+.region-header {
+  height: 75px;
+  width: auto;
+  border-bottom: solid 1px black;
+  position: relative;
+  margin-bottom: 20px; }
+  .region-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .region-header a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer; }
+  .region-header #block-leftheader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase; }
+  .region-header #block-logotext {
+    position: absolute;
+    top: 12px;
+    left: 35%;
+    right: 35%; }
+    .region-header #block-logotext .logotext--wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      .region-header #block-logotext .logotext--wrapper .logotext--1 {
+        font-size: 51px;
+        line-height: 0.5; }
+      .region-header #block-logotext .logotext--wrapper .logotext--2 {
+        font-size: 20px;
+        text-transform: uppercase; }
+  .region-header #block-rightheader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-transform: uppercase; }
+
+#block-tabs .reset-appearance {
+  display: none; }
+
+#block-tabs ul {
+  list-style: none;
+  margin: 0;
+  display: flex; }
+  #block-tabs ul li {
+    margin: 20px 0;
+    padding: 0 20px;
+    border-right: 1px solid black; }
+    #block-tabs ul li:last-child {
+      border: none; }
+
+.node--type-base-page {
+  position: relative; }
+  .node--type-base-page h2 {
+    padding: 20px 0;
+    font-weight: normal; }
+  .node--type-base-page .base-page__image {
+    margin: 0 20px 20px 0;
+    float: left; }
+  .node--type-base-page .base-page__body {
+    width: 70%; }
+  .node--type-base-page .base-page__reach-out {
+    padding: 20px 0;
+    display: flex; }
+    .node--type-base-page .base-page__reach-out svg {
+      width: 30px;
+      padding-right: 5px; }
+  .node--type-base-page .clearfix:after {
+    display: none; }
+  .node--type-base-page .base-page__slideshow {
+    border-top: 1px solid black;
+    clear: left;
+    padding: 20px 0;
+    margin: 20px 0; }
+    .node--type-base-page .base-page__slideshow .slick-list {
+      margin: 0 20px; }
+    .node--type-base-page .base-page__slideshow .slick-slide {
+      padding: 0 5px; }
+      .node--type-base-page .base-page__slideshow .slick-slide img {
+        width: 100%;
+        height: auto; }
+    .node--type-base-page .base-page__slideshow .slick-prev {
+      left: 0; }
+    .node--type-base-page .base-page__slideshow .slick-next {
+      right: 0; }
+    .node--type-base-page .base-page__slideshow .slick-prev:before, .node--type-base-page .base-page__slideshow .slick-next:before {
+      color: black; }
+    .node--type-base-page .base-page__slideshow a:after {
+      display: none; }
+
+.node--type-base-page.node--view-mode-work .node__content {
+  display: flex; }
+
+.node--type-base-page.node--view-mode-work a:after {
+  content: none; }
+
+.node--type-base-page.node--view-mode-work a .base-page__work__title {
+  position: absolute;
+  margin: 20px;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: transparent;
+  opacity: 0%;
+  background: #3e3e3e;
+  transition: opacity .5s, color .5s;
+  text-align: center; }
+
+.node--type-base-page.node--view-mode-work a:hover .base-page__work__title {
+  color: white;
+  opacity: 90%; }
+
+.view-corporation a:after {
+  display: none; }
+
+.view-corporation .view-display-id-attachment_1 .views-row {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: auto;
+  z-index: 1;
+  background: white;
+  margin: 0 50px 50px 50px;
+  box-shadow: 0px 3px 10px 0px black;
+  max-width: 1300px;
+  width: auto;
+  margin: 0 auto; }
+  .view-corporation .view-display-id-attachment_1 .views-row .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px; }
+  .view-corporation .view-display-id-attachment_1 .views-row .views-field-field-secondary-image .item-list > ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 30px;
+    justify-content: center; }
+
+.view-corporation .blazy--view--corporation .corp__button {
+  border-radius: 28px;
+  box-shadow: 0px 0px 6px 1px black;
+  margin: 10px;
+  overflow: hidden; }
+
+.view-corporation .blazy--view--corporation img {
+  width: 100%;
+  height: auto; }
+
+.toolbar-tray-open .view-corporation .view-display-id-attachment_1 .views-row {
+  top: 78px; }
