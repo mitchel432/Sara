@@ -4,9 +4,9 @@ sara_theme.mobile:
   weight: 0
   multipliers:
     - 1x
-sara_theme.narrow:
-  label: narrow
-  mediaQuery: 'all and (min-width: 560px) and (max-width: 850px)'
+sara_theme.desktop:
+  label: desktop
+  mediaQuery: 'all and (min-width: 800px)'
   weight: 1
   multipliers:
     - 1x

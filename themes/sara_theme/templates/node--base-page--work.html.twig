@@ -10,10 +10,12 @@
 %}
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
-    
-
-    <div{{ content_attributes.addClass('node__content') }}>
-        <a href="{{ url }}" rel="bookmark">
+    <div {{ content_attributes.addClass('node__content') }}>
+        {% if content.field_redirect['#title'] %}
+            <a href="{{ content.field_redirect[0]['#url_title'] }}" rel="bookmark">
+        {% else %}
+            <a href="{{ url }}" rel="bookmark">
+        {% endif %}
             <span class="base-page__work__title">
                 {{ label }}
             </span>
