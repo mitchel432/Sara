@@ -1,0 +1,23 @@
+uuid: 3202b990-0061-4ab7-8a22-a942148519d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.buyer_book_page
+  module:
+    - text
+id: node.buyer_book_page.body
+field_name: body
+entity_type: node
+bundle: buyer_book_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

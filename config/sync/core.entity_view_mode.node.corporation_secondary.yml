@@ -1,0 +1,10 @@
+uuid: d002a17e-22f1-4213-8a1b-00e29b0f1453
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.corporation_secondary
+label: 'Corporation Secondary'
+targetEntityType: node
+cache: true

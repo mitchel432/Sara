@@ -1,0 +1,10 @@
+uuid: f65ba67d-abd5-4143-b033-f43b0eb795cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.corporation_primary
+label: 'Corporation Primary'
+targetEntityType: node
+cache: true

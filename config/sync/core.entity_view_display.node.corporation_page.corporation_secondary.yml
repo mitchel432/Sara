@@ -1,0 +1,35 @@
+uuid: ed9f9ad0-5864-416e-9fa5-a86573161213
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.corporation_secondary
+    - field.field.node.corporation_page.body
+    - field.field.node.corporation_page.field_primary_image
+    - field.field.node.corporation_page.field_secondary_image
+    - node.type.corporation_page
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.corporation_page.corporation_secondary
+targetEntityType: node
+bundle: corporation_page
+mode: corporation_secondary
+content:
+  field_secondary_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: corporation_secondary
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_primary_image: true
+  links: true

@@ -1,0 +1,23 @@
+uuid: 96c5d464-7fe6-4d47-b313-1ca0e6e8f862
+langcode: en
+status: true
+dependencies: {  }
+name: slideshow
+label: Slideshow
+effects:
+  1e4ba47c-b8b4-4239-ad33-81003c77fb43:
+    uuid: 1e4ba47c-b8b4-4239-ad33-81003c77fb43
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      upscale: true
+  ac1d1ee6-c0a6-432f-8d8e-8920fafa3186:
+    uuid: ac1d1ee6-c0a6-432f-8d8e-8920fafa3186
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 480
+      height: 480
+      anchor: center-center

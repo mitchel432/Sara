@@ -1,0 +1,8 @@
+uuid: a28b6c7f-6895-4579-98ca-51011a2d3063
+langcode: en
+status: true
+dependencies: {  }
+id: left-header
+label: 'Left Header'
+description: ''
+locked: false

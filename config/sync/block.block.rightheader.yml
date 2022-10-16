@@ -1,0 +1,25 @@
+uuid: a1afbe90-0d4a-4626-80fa-c550ecd98a37
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.right-header
+  module:
+    - system
+  theme:
+    - sara_theme
+id: rightheader
+theme: sara_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:right-header'
+settings:
+  id: 'system_menu_block:right-header'
+  label: 'Right Header'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,34 @@
+uuid: 8a8eb031-0fb2-42eb-9b87-224f7c3dc055
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.corporation_page.body
+    - field.field.node.corporation_page.field_primary_image
+    - field.field.node.corporation_page.field_secondary_image
+    - node.type.corporation_page
+  module:
+    - text
+    - user
+id: node.corporation_page.teaser
+targetEntityType: node
+bundle: corporation_page
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_primary_image: true
+  field_secondary_image: true

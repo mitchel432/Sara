@@ -1,0 +1,17 @@
+uuid: fca102ad-4f5d-40e3-a736-27bc2ee663a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Corporation page'
+type: corporation_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,24 @@
+uuid: 2574f47e-0f4a-4931-b218-bc11d4509090
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.corporation_secondary
+    - image.style.medium
+  theme:
+    - sara_theme
+id: corporation_secondary
+label: 'Corporation Secondary'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: corporation_secondary
+    breakpoint_id: sara_theme.desktop
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium
+    breakpoint_id: sara_theme.mobile
+    multiplier: 1x
+breakpoint_group: sara_theme
+fallback_image_style: corporation_secondary

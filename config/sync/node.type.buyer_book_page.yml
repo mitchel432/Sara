@@ -1,0 +1,17 @@
+uuid: cddf9d36-bf93-4a5d-90d0-7cdf7130dd0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Buyer Book Page'
+type: buyer_book_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

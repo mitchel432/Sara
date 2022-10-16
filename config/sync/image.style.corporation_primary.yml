@@ -1,0 +1,21 @@
+uuid: 44c9a07e-86d6-48ac-af84-a7746359fbcc
+langcode: en
+status: true
+dependencies: {  }
+name: corporation_primary
+label: 'Corporation Primary'
+effects:
+  c212503f-00e1-410c-aede-ed9daf34fc1a:
+    uuid: c212503f-00e1-410c-aede-ed9daf34fc1a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 840
+      height: 1955
+      anchor: center-center
+  46c2fa8a-5e15-429b-9092-7fad4168875b:
+    uuid: 46c2fa8a-5e15-429b-9092-7fad4168875b
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

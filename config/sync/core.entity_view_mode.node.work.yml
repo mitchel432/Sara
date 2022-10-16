@@ -1,0 +1,10 @@
+uuid: e298ed08-6b05-498b-9321-0bc018ac13fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.work
+label: Work
+targetEntityType: node
+cache: true

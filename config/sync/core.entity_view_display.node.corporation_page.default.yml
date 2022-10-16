@@ -1,0 +1,29 @@
+uuid: fbdd8d51-3917-4020-9456-5e02a187515c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.corporation_page.body
+    - field.field.node.corporation_page.field_primary_image
+    - field.field.node.corporation_page.field_secondary_image
+    - node.type.corporation_page
+  module:
+    - user
+id: node.corporation_page.default
+targetEntityType: node
+bundle: corporation_page
+mode: default
+content:
+  field_secondary_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_primary_image: true
+  links: true

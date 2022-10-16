@@ -1,0 +1,10 @@
+uuid: cbc27c58-c028-4469-ba87-c60a6de19d37
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.corporation_secondary
+label: 'Corporation Secondary'
+targetEntityType: media
+cache: true

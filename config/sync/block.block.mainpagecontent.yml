@@ -1,0 +1,20 @@
+uuid: 2440be8f-7cc9-4f43-86fd-e054ff0aee34
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sara_theme
+id: mainpagecontent
+theme: sara_theme
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

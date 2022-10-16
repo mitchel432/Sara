@@ -1,0 +1,20 @@
+uuid: 5ce86df0-f7d4-4174-afe0-14a817359887
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sara_theme
+id: messages
+theme: sara_theme
+region: content
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

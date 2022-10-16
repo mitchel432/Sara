@@ -1,0 +1,23 @@
+uuid: c12d8371-4821-4082-bb0e-3f8c9cbd41ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.corporation_page
+  module:
+    - text
+id: node.corporation_page.body
+field_name: body
+entity_type: node
+bundle: corporation_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

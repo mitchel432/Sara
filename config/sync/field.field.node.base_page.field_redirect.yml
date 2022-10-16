@@ -1,0 +1,23 @@
+uuid: cfced3a9-f967-4e1e-a059-6f7d9b2fe447
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_redirect
+    - node.type.base_page
+  module:
+    - link
+id: node.base_page.field_redirect
+field_name: field_redirect
+entity_type: node
+bundle: base_page
+label: Redirect
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

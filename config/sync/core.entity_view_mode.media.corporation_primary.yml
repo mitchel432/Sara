@@ -1,0 +1,10 @@
+uuid: c4278ac9-0462-4071-bb76-b023885e6373
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.corporation_primary
+label: 'Corporation Primary'
+targetEntityType: media
+cache: true

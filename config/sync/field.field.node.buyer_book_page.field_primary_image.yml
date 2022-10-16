@@ -1,0 +1,29 @@
+uuid: 20d31dff-00f0-4371-a1a6-878e9a91c750
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_primary_image
+    - media.type.image
+    - node.type.buyer_book_page
+id: node.buyer_book_page.field_primary_image
+field_name: field_primary_image
+entity_type: node
+bundle: buyer_book_page
+label: 'Primary Image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

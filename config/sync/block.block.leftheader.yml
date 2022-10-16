@@ -1,0 +1,25 @@
+uuid: 086e7353-dccf-4d4b-8cf0-770766462cb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.left-header
+  module:
+    - system
+  theme:
+    - sara_theme
+id: leftheader
+theme: sara_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:left-header'
+settings:
+  id: 'system_menu_block:left-header'
+  label: 'Left Header'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

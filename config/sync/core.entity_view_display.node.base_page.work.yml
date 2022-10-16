@@ -1,0 +1,49 @@
+uuid: 14fde1f8-808a-4e3a-b3f4-dab13329741f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.work
+    - field.field.node.base_page.body
+    - field.field.node.base_page.field_primary_image
+    - field.field.node.base_page.field_redirect
+    - field.field.node.base_page.field_slideshow
+    - node.type.base_page
+  module:
+    - layout_builder
+    - link
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.base_page.work
+targetEntityType: node
+bundle: base_page
+mode: work
+content:
+  field_primary_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_redirect:
+    type: link_separate
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_slideshow: true
+  links: true

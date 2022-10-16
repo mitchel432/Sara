@@ -1,0 +1,18 @@
+uuid: 0f1021e9-ac7d-49eb-bc08-134fce3afb62
+langcode: en
+status: false
+dependencies:
+  theme:
+    - sara_theme
+id: primaryadminactions
+theme: sara_theme
+region: content
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
