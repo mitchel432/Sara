@@ -1,11 +1,11 @@
-uuid: fabeaa48-0528-43f5-bb05-ea0a53665902
+uuid: 9638f288-eeb2-484a-87c8-b17240ca71ca
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.buyer_book_page.body
-    - field.field.node.buyer_book_page.field_primary_image
-    - node.type.buyer_book_page
+    - field.field.node.custom_page.body
+    - field.field.node.custom_page.field_primary_image
+    - node.type.custom_page
   module:
     - field_layout
     - layout_discovery
@@ -17,9 +17,9 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
-id: node.buyer_book_page.default
+id: node.custom_page.default
 targetEntityType: node
-bundle: buyer_book_page
+bundle: custom_page
 mode: default
 content:
   body:

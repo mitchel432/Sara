@@ -1,4 +1,4 @@
-uuid: 81fa7a57-09fb-43a8-a5fa-16de01b9bb03
+uuid: 38de5249-3efc-45ca-8120-21848ff6fcee
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,6 @@ dependencies:
     - filter.format.gutenberg
   module:
     - gutenberg
-  enforced:
-    module:
-      - gutenberg
-_core:
-  default_config_hash: v72S6pxc_3CvTSaQhT9gH2hm7xWLXzc0MA14mmprxX8
 format: gutenberg
 editor: gutenberg
 settings:

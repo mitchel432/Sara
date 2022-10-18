@@ -1,17 +1,17 @@
-uuid: 03800b2f-1a30-4d1a-898f-e5658369146e
+uuid: aa3d9383-1b1f-4720-a99d-0cda363e0919
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.buyer_book_page.body
-    - field.field.node.buyer_book_page.field_primary_image
-    - node.type.buyer_book_page
+    - field.field.node.custom_page.body
+    - field.field.node.custom_page.field_primary_image
+    - node.type.custom_page
   module:
     - text
     - user
-id: node.buyer_book_page.default
+id: node.custom_page.default
 targetEntityType: node
-bundle: buyer_book_page
+bundle: custom_page
 mode: default
 content:
   body:

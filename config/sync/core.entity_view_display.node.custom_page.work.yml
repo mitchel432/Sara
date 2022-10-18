@@ -1,0 +1,33 @@
+uuid: 338ca305-7e63-4b18-8c6a-70f21bf4c2d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.work
+    - field.field.node.custom_page.body
+    - field.field.node.custom_page.field_primary_image
+    - node.type.custom_page
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.custom_page.work
+targetEntityType: node
+bundle: custom_page
+mode: work
+content:
+  field_primary_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: work
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  links: true

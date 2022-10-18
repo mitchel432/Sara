@@ -1,0 +1,21 @@
+uuid: bb58e3a7-9f7a-4553-ba38-d48af7b22482
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.layout_builder__layout
+    - media.type.image
+  module:
+    - layout_builder
+id: media.image.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: media
+bundle: image
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

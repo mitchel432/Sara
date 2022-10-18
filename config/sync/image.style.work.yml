@@ -1,0 +1,13 @@
+uuid: 1f49c390-11a3-4393-a259-47bfb0818e15
+langcode: en
+status: true
+dependencies: {  }
+name: work
+label: Work
+effects:
+  20729bcf-3ee8-4dac-b9f4-ddaf8fd9646f:
+    uuid: 20729bcf-3ee8-4dac-b9f4-ddaf8fd9646f
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp

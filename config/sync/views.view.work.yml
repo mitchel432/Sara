@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.work
     - node.type.base_page
+    - node.type.custom_page
   module:
     - blazy
     - node
@@ -140,6 +141,7 @@ display:
           operator: in
           value:
             base_page: base_page
+            custom_page: custom_page
           group: 1
           exposed: false
           expose:

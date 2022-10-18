@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.media.slideshow
     - field.field.media.image.field_media_image
+    - field.field.media.image.layout_builder__layout
     - image.style.slideshow
     - media.type.image
   module:
@@ -35,6 +36,7 @@ content:
     region: content
 hidden:
   created: true
+  layout_builder__layout: true
   name: true
   thumbnail: true
   uid: true
