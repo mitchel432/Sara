@@ -2,18 +2,28 @@
     position: relative;
 
     h2 {
-        padding: $margin-medium 0;
-        @extend %primary-font-extra-large;
+        padding: 0;
         font-weight: normal;
+        margin: 0;
+        img {
+            width: 350px;
+        }
+    }
+
+    .node__content {
+        background-color: #e0cdcc;
+        padding: $margin-medium $margin-medium 80px $margin-medium;
+    }
+
+    .base-page__main-content {
+        padding: 5%;
+        color: #967777;
+        margin-bottom: 80px;
     }
 
     .base-page__image {
-        margin: 0 $margin-medium $margin-medium 0;
+        margin: 0 60px 0px 0;
         float: left;
-    }
-
-    .base-page__body {
-        width: 70%;
     }
 
     .base-page__reach-out {
@@ -24,6 +34,11 @@
         svg {
             width: 30px;
             padding-right: 5px;
+            fill: #b0a005;
+        }
+
+        a {
+            color: #b15b57;
         }
     }
 
@@ -33,13 +48,25 @@
     }
 
     .base-page__slideshow {
-        border-top: 1px solid black;
         clear: left;
-        padding: $margin-medium 0;
-        margin: $margin-medium 0;
+        padding: 0 $margin-medium 40px $margin-medium;
+        margin: $margin-medium;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: #eeb49f;
+            z-index: 0;
+        }
 
         .slick-list {
             margin: 0 $margin-medium;
+            z-index: 1;
         }
 
         .slick-slide {
@@ -66,5 +93,14 @@
         a:after {
             display: none;
         }
+
+        .custom-slideshow-text {
+            position: absolute;
+            bottom: -100px;
+            right: 120px;
+            width: 60%;
+            z-index: 2;
+        }
     }
+
 }

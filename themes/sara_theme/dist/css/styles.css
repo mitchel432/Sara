@@ -52,21 +52,6 @@
   src: url("../../src/fonts/montserrat/Montserrat-Thin.otf");
   font-weight: 100; }
 
-.node--type-base-page h2 {
-  font-size: 40px;
-  font-family: abigail, sans-serif;
-  letter-spacing: 0px;
-  text-shadow: 0 0 0px black; }
-  @media (min-width: 600px) {
-    .node--type-base-page h2 {
-      font-size: 40px; } }
-  @media (min-width: 800px) {
-    .node--type-base-page h2 {
-      font-size: 40px; } }
-  @media (min-width: 1200px) {
-    .node--type-base-page h2 {
-      font-size: 40px; } }
-
 .node--view-mode-work a {
   font-size: 30px;
   font-family: abigail, sans-serif;
@@ -82,19 +67,19 @@
     .node--view-mode-work a {
       font-size: 30px; } }
 
-.region-header #block-logotext .logotext--wrapper .logotext--1, .node--type-base-page .base-page__reach-out {
+.node--type-base-page .base-page__reach-out {
   font-size: 25px;
   font-family: abigail, sans-serif;
   letter-spacing: 0px;
   text-shadow: 0 0 0px black; }
   @media (min-width: 600px) {
-    .region-header #block-logotext .logotext--wrapper .logotext--1, .node--type-base-page .base-page__reach-out {
+    .node--type-base-page .base-page__reach-out {
       font-size: 25px; } }
   @media (min-width: 800px) {
-    .region-header #block-logotext .logotext--wrapper .logotext--1, .node--type-base-page .base-page__reach-out {
+    .node--type-base-page .base-page__reach-out {
       font-size: 25px; } }
   @media (min-width: 1200px) {
-    .region-header #block-logotext .logotext--wrapper .logotext--1, .node--type-base-page .base-page__reach-out {
+    .node--type-base-page .base-page__reach-out {
       font-size: 25px; } }
 
 body {
@@ -111,7 +96,6 @@ body {
       margin: 0 15%; } }
 
 body {
-  margin: 20px;
   color: black; }
   body .layout-container a {
     color: black;
@@ -131,45 +115,42 @@ body {
       width: 100%; }
 
 .region-header {
-  height: 75px;
+  height: 190px;
   width: auto;
-  border-bottom: solid 1px black;
   position: relative;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  background-color: #b0a005; }
   .region-header ul {
     list-style: none;
     margin: 0;
     padding: 0; }
-  .region-header a {
-    color: black;
+  .region-header .menu a {
+    color: white;
     text-decoration: none;
     cursor: pointer; }
   .region-header #block-leftheader {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 20px;
     text-transform: uppercase; }
-  .region-header #block-logotext {
+  .region-header #block-logo {
     position: absolute;
-    top: 12px;
-    left: 35%;
-    right: 35%; }
-    .region-header #block-logotext .logotext--wrapper {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center; }
-      .region-header #block-logotext .logotext--wrapper .logotext--1 {
-        font-size: 51px;
-        line-height: 0.5; }
-      .region-header #block-logotext .logotext--wrapper .logotext--2 {
-        font-size: 20px;
-        text-transform: uppercase; }
+    top: 40px;
+    left: 30%;
+    right: 30%;
+    color: white;
+    margin: 0 auto;
+    width: 200px; }
+    .region-header #block-logo svg path {
+      fill: white; }
   .region-header #block-rightheader {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 20px;
     text-transform: uppercase; }
+
+.page-content {
+  margin: 20px; }
 
 #block-tabs .reset-appearance {
   display: none; }
@@ -185,31 +166,62 @@ body {
     #block-tabs ul li:last-child {
       border: none; }
 
+#block-footerlogo {
+  width: 200px;
+  margin: 50px auto; }
+  #block-footerlogo svg {
+    background: #b0a005;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    fill: white; }
+
 .node--type-base-page {
   position: relative; }
   .node--type-base-page h2 {
-    padding: 20px 0;
-    font-weight: normal; }
+    padding: 0;
+    font-weight: normal;
+    margin: 0; }
+    .node--type-base-page h2 img {
+      width: 350px; }
+  .node--type-base-page .node__content {
+    background-color: #e0cdcc;
+    padding: 20px 20px 80px 20px; }
+  .node--type-base-page .base-page__main-content {
+    padding: 5%;
+    color: #967777;
+    margin-bottom: 80px; }
   .node--type-base-page .base-page__image {
-    margin: 0 20px 20px 0;
+    margin: 0 60px 0px 0;
     float: left; }
-  .node--type-base-page .base-page__body {
-    width: 70%; }
   .node--type-base-page .base-page__reach-out {
     padding: 20px 0;
     display: flex; }
     .node--type-base-page .base-page__reach-out svg {
       width: 30px;
-      padding-right: 5px; }
+      padding-right: 5px;
+      fill: #b0a005; }
+    .node--type-base-page .base-page__reach-out a {
+      color: #b15b57; }
   .node--type-base-page .clearfix:after {
     display: none; }
   .node--type-base-page .base-page__slideshow {
-    border-top: 1px solid black;
     clear: left;
-    padding: 20px 0;
-    margin: 20px 0; }
+    padding: 0 20px 40px 20px;
+    margin: 20px;
+    position: relative; }
+    .node--type-base-page .base-page__slideshow::after {
+      content: '';
+      position: absolute;
+      top: 40px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: #eeb49f;
+      z-index: 0; }
     .node--type-base-page .base-page__slideshow .slick-list {
-      margin: 0 20px; }
+      margin: 0 20px;
+      z-index: 1; }
     .node--type-base-page .base-page__slideshow .slick-slide {
       padding: 0 5px; }
       .node--type-base-page .base-page__slideshow .slick-slide img {
@@ -223,6 +235,12 @@ body {
       color: black; }
     .node--type-base-page .base-page__slideshow a:after {
       display: none; }
+    .node--type-base-page .base-page__slideshow .custom-slideshow-text {
+      position: absolute;
+      bottom: -100px;
+      right: 120px;
+      width: 60%;
+      z-index: 2; }
 
 .node--view-mode-work .node__content {
   display: flex; }
