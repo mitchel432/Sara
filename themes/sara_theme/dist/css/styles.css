@@ -304,7 +304,8 @@ body {
   opacity: 0%;
   background: #3e3e3e;
   transition: opacity .5s, color .5s;
-  text-align: center; }
+  text-align: center;
+  font-family: montserrat; }
 
 .node--view-mode-work a:hover .base-page__work__title {
   color: white;
