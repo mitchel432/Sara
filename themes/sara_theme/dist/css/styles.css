@@ -140,7 +140,8 @@ body {
     right: 30%;
     color: white;
     margin: 0 auto;
-    width: 200px; }
+    width: 100%;
+    max-width: 200px; }
     .region-header #block-logo svg path {
       fill: white; }
   .region-header #block-rightheader {
