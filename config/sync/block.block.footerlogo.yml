@@ -1,0 +1,25 @@
+uuid: 59d16cff-7402-44c2-a1bc-1cb7a07e9629
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:c442683b-3212-4312-8d09-2704037d8d7f'
+  module:
+    - block_content
+  theme:
+    - sara_theme
+id: footerlogo
+theme: sara_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:c442683b-3212-4312-8d09-2704037d8d7f'
+settings:
+  id: 'block_content:c442683b-3212-4312-8d09-2704037d8d7f'
+  label: 'Footer Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

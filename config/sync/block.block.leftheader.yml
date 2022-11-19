@@ -11,7 +11,7 @@ dependencies:
 id: leftheader
 theme: sara_theme
 region: header
-weight: 0
+weight: -3
 provider: null
 plugin: 'system_menu_block:left-header'
 settings:

@@ -1,15 +1,14 @@
 uuid: b98d1ead-db96-4163-8676-24e583e587d3
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.media.media_library
     - field.field.media.image.field_media_image
-    - field.field.media.image.layout_builder__layout
     - image.style.medium
     - media.type.image
   module:
-    - image
+    - svg_image
 id: media.image.media_library
 targetEntityType: media
 bundle: image
@@ -29,6 +28,5 @@ content:
 hidden:
   created: true
   field_media_image: true
-  layout_builder__layout: true
   name: true
   uid: true

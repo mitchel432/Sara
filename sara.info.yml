@@ -38,7 +38,6 @@ dependencies:
   - help
   - history
   - image
-  - insert
   - jquery_ui
   - jquery_ui_datepicker
   - jquery_ui_slider

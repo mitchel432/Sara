@@ -1,0 +1,25 @@
+uuid: 848279ae-6593-4891-abd7-41178f3c83b5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:32116b21-e402-4939-915b-0cbb2aa30e60'
+  module:
+    - block_content
+  theme:
+    - sara_theme
+id: logo
+theme: sara_theme
+region: header
+weight: -2
+provider: null
+plugin: 'block_content:32116b21-e402-4939-915b-0cbb2aa30e60'
+settings:
+  id: 'block_content:32116b21-e402-4939-915b-0cbb2aa30e60'
+  label: Logo
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

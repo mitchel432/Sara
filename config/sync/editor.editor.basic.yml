@@ -15,7 +15,7 @@ settings:
         -
           name: Styles
           items:
-            - Styles
+            - Format
         -
           name: Formatting
           items:
@@ -56,9 +56,7 @@ settings:
           name: Create
           items:
             - Table
-  plugins:
-    stylescombo:
-      styles: ''
+  plugins: {  }
 image_upload:
   status: false
   scheme: public

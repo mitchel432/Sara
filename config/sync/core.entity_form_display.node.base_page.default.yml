@@ -10,17 +10,11 @@ dependencies:
     - node.type.base_page
   module:
     - field_group
-    - field_layout
-    - layout_discovery
     - link
     - media_library
     - path
     - text
 third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
   field_group:
     group_tabs:
       children:

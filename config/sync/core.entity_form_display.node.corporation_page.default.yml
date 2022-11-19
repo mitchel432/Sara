@@ -9,15 +9,9 @@ dependencies:
     - node.type.corporation_page
   module:
     - field_group
-    - field_layout
-    - layout_discovery
     - media_library
     - path
 third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
   field_group:
     group_group:
       children:

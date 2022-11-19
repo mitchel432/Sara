@@ -35,7 +35,6 @@
         "drupal/field_group": "^3.2",
         "drupal/geolocation": "^3.7",
         "drupal/gutenberg": "^2.2",
-        "drupal/insert": "^2.0@beta",
         "drupal/jquery_ui": "^1.4",
         "drupal/jquery_ui_datepicker": "^1.1",
         "drupal/jquery_ui_slider": "^1.1",

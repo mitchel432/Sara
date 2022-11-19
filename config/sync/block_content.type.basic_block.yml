@@ -1,0 +1,8 @@
+uuid: fc3d7ec4-6426-4be5-a2ee-2d80ce5b4744
+langcode: en
+status: true
+dependencies: {  }
+id: basic_block
+label: 'Basic Block'
+revision: 0
+description: ''

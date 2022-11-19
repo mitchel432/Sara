@@ -11,7 +11,7 @@ dependencies:
 id: rightheader
 theme: sara_theme
 region: header
-weight: 0
+weight: -1
 provider: null
 plugin: 'system_menu_block:right-header'
 settings:

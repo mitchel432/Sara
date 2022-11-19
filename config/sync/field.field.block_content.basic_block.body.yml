@@ -1,21 +1,16 @@
-uuid: f4360fdb-a7af-4026-8013-72a0e532fa84
+uuid: 1581cf88-57ee-41dd-80aa-aeef5193f802
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.reusable_block
+    - block_content.type.basic_block
     - field.storage.block_content.body
   module:
     - text
-  enforced:
-    module:
-      - gutenberg
-_core:
-  default_config_hash: 5RXQefQODLix37m6HHHb7dKXF_l8R7yp0zr9fyRVbts
-id: block_content.reusable_block.body
+id: block_content.basic_block.body
 field_name: body
 entity_type: block_content
-bundle: reusable_block
+bundle: basic_block
 label: Body
 description: ''
 required: false
