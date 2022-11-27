@@ -311,6 +311,10 @@ body {
   color: white;
   opacity: 90%; }
 
+.node--view-mode-work a img {
+  object-fit: cover;
+  width: 100%; }
+
 .view-corporation .view-display-id-attachment_1:after {
   content: '';
   position: fixed;
