@@ -6,6 +6,10 @@
     text-align: center;
     text-transform: uppercase;
 
+    .slick-slide:not(.slick-current) {
+        cursor: pointer;
+    }
+
     .field--name-field-name {
        font-family: abigail;
        color: #b5948a;

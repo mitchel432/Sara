@@ -155,6 +155,8 @@ body {
 .paragraph--type--slideshow {
   text-align: center;
   text-transform: uppercase; }
+  .paragraph--type--slideshow .slick-slide:not(.slick-current) {
+    cursor: pointer; }
   .paragraph--type--slideshow .field--name-field-name {
     font-family: abigail;
     color: #b5948a;
