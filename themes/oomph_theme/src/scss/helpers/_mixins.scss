@@ -1,0 +1,130 @@
+// Praline - Title, large text
+%primary-font-extra-large {
+    font-size: 40px;
+    font-family: abigail, sans-serif;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px black;
+    @media (min-width: 600px) {
+        font-size: 40px;
+    }
+    @media (min-width: 800px) {
+        font-size: 40px;
+    }
+    @media (min-width: 1200px) {
+        font-size: 40px;
+    }
+}
+
+%primary-font-large {
+    font-size: 30px;
+    font-family: abigail, sans-serif;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px black;
+    @media (min-width: 600px) {
+        font-size: 30px;
+    }
+    @media (min-width: 800px) {
+        font-size: 30px;
+    }
+    @media (min-width: 1200px) {
+        font-size: 30px;
+    }
+}
+
+%primary-font-medium {
+    font-size: 25px;
+    font-family: abigail, sans-serif;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px black;
+    @media (min-width: 600px) {
+        font-size: 25px;
+    }
+    @media (min-width: 800px) {
+        font-size: 25px;
+    }
+    @media (min-width: 1200px) {
+        font-size: 25px;
+    }
+}
+
+%primary-font-small {
+    font-size: 20px;
+    font-family: abigail, sans-serif;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px black;
+    @media (min-width: 600px) {
+        font-size: 20px;
+    }
+    @media (min-width: 800px) {
+        font-size: 20px;
+    }
+    @media (min-width: 1200px) {
+        font-size: 20px;
+    }
+}
+
+%primary-font-extra-small {
+    font-size: 16px;
+    font-family: abigail, sans-serif;
+    letter-spacing: 0px;
+    text-shadow: 0 0 0px black;
+    @media (min-width: 600px) {
+        font-size: 16px;
+    }
+    @media (min-width: 800px) {
+        font-size: 16px;
+    }
+    @media (min-width: 1200px) {
+        font-size: 16px;
+    }
+}
+
+// PralineSans - Normal text
+%secondary-font-large {
+    font-size: 18px;
+    font-family: montserrat;
+    @media (min-width: 800px) {
+        font-size: 28px;
+    }
+}
+
+%secondary-font-medium {
+    font-size: 15px;
+    font-family: montserrat;
+    @media (min-width: 800px) {
+        font-size: 18px;
+    }
+}
+
+%secondary-font-small {
+    font-size: 13px;
+    font-family: montserrat;
+    @media (min-width: 800px) {
+        font-size: 13px;
+    }
+}
+
+// Sidebar margin
+%sidebar-large {
+    margin: 0 10%;
+    @media (min-width: 800px) {
+        margin: 0 20%;
+    }
+    @media (min-width: 1200px) {
+        margin: 0 25%;
+    }
+}
+
+%sidebar-medium {
+    margin: 0 8%;
+    @media (min-width: 800px) {
+        margin: 0 15%;
+    }
+}
+
+%sidebar-small {
+    margin: 0 5%;
+    @media (min-width: 800px) {
+        margin: 0 5%;
+    }
+}

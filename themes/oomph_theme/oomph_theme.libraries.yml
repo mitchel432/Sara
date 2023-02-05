@@ -1,0 +1,26 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      dist/css/styles.css: {}
+  fonts:
+    src/fonts/abigail-v4.ttf: {}
+    src/fonts/abigail-v4.woff: {}
+    src/fonts/Acumin-BdPro.otf: {}
+    src/fonts/Acumin-RPro.otf: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+slideshow:
+  js:
+    src/js/slideshow.js: {}
+    /libraries/slick-carousel/slick/slick.min.js: {}
+  css:
+    theme:
+      /libraries/slick-carousel/slick/slick.css: {}
+      /libraries/slick-carousel/slick/slick-theme.css: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery
+    - core/jquery.once

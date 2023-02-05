@@ -1,0 +1,50 @@
+.region-header {
+    height: 280px;
+    width: auto;
+    position: relative;
+    margin-bottom: $margin-medium;
+    background-color: #ccb9b2;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+    #block-leftoomphmenu {
+        position: absolute;
+
+        top: $margin-medium;
+        left: $margin-medium;
+        text-transform: uppercase;
+        font-family: monserrat;
+    }
+
+    #block-sitebranding {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        max-width: 130px;
+        margin: auto;
+       img {
+        width: 100%;
+        height: auto;
+       }
+    }
+
+    #block-rightoomphmenu {
+        position: absolute;
+        top: $margin-medium;
+        right: $margin-medium;
+        text-transform: uppercase;
+        font-family: monserrat;
+    }
+}

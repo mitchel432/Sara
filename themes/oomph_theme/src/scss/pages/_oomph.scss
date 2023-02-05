@@ -1,0 +1,22 @@
+.slick-slide {
+    margin: 0 5px;
+}
+
+.paragraph--type--slideshow {
+    text-align: center;
+    text-transform: uppercase;
+
+    .field--name-field-name {
+       font-family: abigail;
+       color: #b5948a;
+       font-size: 70px;
+       margin-top: 10px;
+    }
+
+    .field--name-field-description {
+        font-family: montserrat;
+       color: #888c97;
+       font-size: 35px;
+       margin-bottom: 15px;
+    }
+}

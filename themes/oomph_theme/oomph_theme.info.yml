@@ -1,0 +1,14 @@
+name: "Oomph Theme"
+type: theme
+base theme: seven
+description: "Oomphs Website Portfolio."
+core_version_requirement: ^8.8 || ^9
+libraries:
+  - oomph_theme/global-styling
+regions:
+  header: Header
+  content: Content
+  footer: Footer
+libraries-override:
+  system/admin: false
+  seven/global-styling: false

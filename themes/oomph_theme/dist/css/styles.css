@@ -1,0 +1,165 @@
+@font-face {
+  src: url(../../src/fonts/Praline-Regular.otf) format("opentype");
+  font-family: Praline; }
+
+@font-face {
+  src: url(../../src/fonts/PralineSans-Regular.otf) format("opentype");
+  font-family: PralineSans; }
+
+@font-face {
+  font-family: "abigail";
+  src: url("../../src/fonts/abigail-v4.woff") format("woff"); }
+
+@font-face {
+  font-family: "acumin";
+  src: url("../../src/fonts/Acumin-BdPro.otf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "acumin";
+  src: url("../../src/fonts/Acumin-RPro.otf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Regular.otf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Italic.otf");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Bold.otf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-SemiBold.otf");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Light.otf");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/fonts/montserrat/Montserrat-Thin.otf");
+  font-weight: 100; }
+
+body {
+  font-size: 15px;
+  font-family: montserrat; }
+  @media (min-width: 800px) {
+    body {
+      font-size: 18px; } }
+
+body {
+  color: black; }
+  body .layout-container a {
+    color: black;
+    text-decoration: none;
+    position: relative; }
+    body .layout-container a:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      transition: width 1s;
+      background: black; }
+    body .layout-container a:hover:after {
+      width: 100%; }
+
+.region-header {
+  height: 280px;
+  width: auto;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #ccb9b2; }
+  .region-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .region-header .menu a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer; }
+  .region-header #block-leftoomphmenu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    font-family: monserrat; }
+  .region-header #block-sitebranding {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    max-width: 130px;
+    margin: auto; }
+    .region-header #block-sitebranding img {
+      width: 100%;
+      height: auto; }
+  .region-header #block-rightoomphmenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-transform: uppercase;
+    font-family: monserrat; }
+
+.page-content {
+  margin: 20px; }
+
+#block-tabs .reset-appearance {
+  display: none; }
+
+#block-tabs ul {
+  list-style: none;
+  margin: 0;
+  display: flex; }
+  #block-tabs ul li {
+    margin: 20px 0;
+    padding: 0 20px;
+    border-right: 1px solid black; }
+    #block-tabs ul li:last-child {
+      border: none; }
+
+.region-footer {
+  width: 100%;
+  height: 400px;
+  background-color: #ccb9b2;
+  position: relative; }
+  .region-footer #block-sitebranding-2 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    max-width: 130px;
+    margin: auto; }
+    .region-footer #block-sitebranding-2 img {
+      width: 100%;
+      height: auto; }
+
+.slick-slide {
+  margin: 0 5px; }
+
+.paragraph--type--slideshow {
+  text-align: center;
+  text-transform: uppercase; }
+  .paragraph--type--slideshow .field--name-field-name {
+    font-family: abigail;
+    color: #b5948a;
+    font-size: 70px;
+    margin-top: 10px; }
+  .paragraph--type--slideshow .field--name-field-description {
+    font-family: montserrat;
+    color: #888c97;
+    font-size: 35px;
+    margin-bottom: 15px; }
