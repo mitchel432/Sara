@@ -28,13 +28,13 @@
                                 slidesToScroll: 1
                             }
                         },
-                        {
-                            breakpoint: 800,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 1
-                            }
-                        }
+                        // {
+                        //     breakpoint: 800,
+                        //     settings: {
+                        //         slidesToShow: 2,
+                        //         slidesToScroll: 1
+                        //     }
+                        // }
                     ]
                 });
             }
@@ -45,14 +45,12 @@
             // Reset to all slides
             slides = slideshow.find('.slick-slide')
             let currentIndex = 0;
-            console.log(firstIndex, lastIndex)
            
             slides.click(function(slide) {
                 clickedIndex = $(this).data('slick-index')
                 isLoopNext = (currentIndex == lastIndex + 1 && clickedIndex == firstIndex + 1)
                 isLoopPrev = (currentIndex == (firstIndex - 1) && clickedIndex == (lastIndex - 1))
                 isNextSlide = (clickedIndex > currentIndex && !isLoopPrev)
-                console.log(currentIndex, clickedIndex, isLoopNext, isLoopPrev)
                 if (isNextSlide || isLoopNext) {
                     slideshow.slick('slickNext');
                     currentIndex = clickedIndex;

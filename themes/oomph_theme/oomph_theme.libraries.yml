@@ -3,6 +3,8 @@ global-styling:
   css:
     base:
       dist/css/styles.css: {}
+  js:
+    src/js/heart.js: {}
   fonts:
     src/fonts/abigail-v4.ttf: {}
     src/fonts/abigail-v4.woff: {}
